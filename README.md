@@ -27,7 +27,7 @@ Backend
    `npm test`
 
 # Coverage Report
-
+```
  PASS  tests/index.test.js
   Post Journey
     √ Check if GET /posts working (141 ms)
@@ -54,8 +54,9 @@ Backend
     √ GET /posts/:postId should return status-code 500 when DB connection is closed  (40 ms)
     √ GET /comments should return status-code 500 when DB connection is closed  (32 ms)
     √ GET /comments should return status-code 500 when DB connection is closed  (31 ms)
+```
 
------------------------------------------|---------|----------|---------|---------|-------------------
+
 File                                     | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -----------------------------------------|---------|----------|---------|---------|-------------------
 All files                                |   98.41 |    91.66 |     100 |     100 | 
@@ -70,7 +71,8 @@ All files                                |   98.41 |    91.66 |     100 |     10
  Awesome-Motive-blog-backend/Routes      |     100 |      100 |     100 |     100 | 
   Comment.route.js                       |     100 |      100 |     100 |     100 | 
   Post.route.js                          |     100 |      100 |     100 |     100 | 
------------------------------------------|---------|----------|---------|---------|-------------------
+
+
 Test Suites: 1 passed, 1 total
 Tests:       21 passed, 21 total
 Snapshots:   0 total
