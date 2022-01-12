@@ -1,0 +1,35 @@
+{
+  "name": "am-blog-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest --coverage",
+    "testCoverage": "jest --coverage",
+    "test-w": "jest --watchAll --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "joi": "^17.4.2",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.14",
+    "uuid": "^8.3.2",
+    "yamljs": "^0.3.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  }
+}
