@@ -24,7 +24,8 @@ Backend
 ```
 
 # How to run coverage and testing -> 
-   `npm test`
+### `npm test`
+
 
 # Coverage Report
 ```
@@ -72,9 +73,10 @@ All files                                |   98.41 |    91.66 |     100 |     10
   Comment.route.js                       |     100 |      100 |     100 |     100 | 
   Post.route.js                          |     100 |      100 |     100 |     100 | 
 
-
+```
 Test Suites: 1 passed, 1 total
 Tests:       21 passed, 21 total
 Snapshots:   0 total
 Time:        4.462 s, estimated 17 s
 Ran all test suites.
+```
