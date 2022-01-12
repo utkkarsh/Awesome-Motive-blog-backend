@@ -1,6 +1,5 @@
 // import user model
-const Post = require("../models/Post.model");
-
+const Post = require("../Models/Post.model");
 const bcrypt = require("bcrypt");
 const Joi = require("joi");
 const createHttpError = require("http-errors");

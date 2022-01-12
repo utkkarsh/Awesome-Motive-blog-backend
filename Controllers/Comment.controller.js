@@ -1,5 +1,5 @@
 // import user model
-const Comment = require("../models/Comment.model");
+const Comment = require("../Models/Comment.model");
 
 const bcrypt = require("bcrypt");
 const Joi = require("joi");
